@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400&family=Belanosima:wght@400;600;700&family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400&family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box ;
+
+}
+
+body {
+    background: -webkit-gradient(linear-gradient, left bottom, left top, from (rgb(87, 170, 198), to (whhite)));
+    background: linear-gradient(white 100%, rgb(87, 170, 198));
+    background-repeat: no-repeat;
+    -webkit-box-orient: vertical;
+    -webkit-animation-direction: normal;
+    flex-direction: column;
+}
+
