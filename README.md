@@ -6,7 +6,10 @@
 
 
 ## Usage
+[Checkout the project on Github ](https://github.com/noeamelya/weather_dashboard)
 
+Outcome the project:
+![outcome the project](./images/weatherdash.png)
 
 
 ## Technologies
@@ -27,9 +30,6 @@ The following image shows the web application's appearance and functionality:
 
 ![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./images/10-server-side-apis-challenge-demo.png)
 
-## Screenshot
-
-  
 
 ## LICENSE
 MIT

@@ -1,79 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400&family=Belanosima:wght@400;600;700&family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400&family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    
-
+.container {
+  display:flexbox;
+  justify-content: center;
+  margin: 0;
 }
-
-body {
-
-    background: linear-gradient(white 100%, rgb(87, 170, 198));
-    background-repeat: no-repeat;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    font-family: Belanosima;
-}
-
-@media (min-width: 1400px) {
-    body {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      height: 100vh;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    body {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      height: 100vh;
-    }
-  }
-  
-  @media (min-width: 600px) {
-    body {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-    }
-  }
-
-header {
-    background-color: aqua;
-}
-
 .search-history {
   display: flex;
   flex-direction: column;
 }
 
 .day {
-  background: #1a2846;
+  background: #512c1c;
   color: white;
   list-style: none;
   padding: 10px 20px;
@@ -87,7 +23,7 @@ header {
 
 .five-day-forecast-header {
   padding: 20px 10px;
-  font-size: 2em;
+  font-size: 2rm;
 }
 
 .present-day-weather ul {
@@ -96,12 +32,18 @@ header {
   padding: 10px;
   margin: 10px;
 }
+.btn {
+  color: chocolate;
+  
+}
 
 header {
-  background: #1a2846;
+  background: #bb551a;
   color: white;
   padding: 10px;
   margin-bottom: 10px;
+  font-size: 600;
+  font-style: italic;
 }
 /* Tablets - landscape and portrait */
 @media screen and (max-width: 1180px) {
